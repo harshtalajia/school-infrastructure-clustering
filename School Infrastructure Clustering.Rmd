@@ -6,7 +6,7 @@ output:
   pdf_document: default
   html_document:
     df_print: paged
-  word_document: default
+    keep_md: true
 ---
 
 ```{r setup, include=FALSE}
